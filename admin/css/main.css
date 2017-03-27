@@ -1,0 +1,570 @@
+/** Admin **/
+
+/* Main */
+body {
+	padding-bottom: 0;
+	background: #fff;
+}
+
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #303030;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #303030;
+}
+
+
+.followus {
+	margin-right: 5px;
+}
+
+.btn-link, .btn-link:visited {
+	color: #0984FA;
+}
+
+.btn-link:hover, .btn-link:active {
+	color: #0984FA;
+	text-decoration: underline;
+}
+
+.breadcrumb {
+	font-size: 16px;
+	background: none;
+	background: url('../../images/folder.png') no-repeat;
+	padding-left: 40px;
+	background-position: 5px 5px;
+}
+
+
+.form-control {
+	border-color: #D2E8FE;
+}
+
+.account-info {
+	background: none;
+	color: #fff;
+	padding: 8px;
+	text-align: right;
+
+	height: 36px;
+	font-weight: bold;
+}
+
+
+.alert {
+	margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.virtualcurrency1 {
+	background: #000;
+	color: #fff;
+	border-bottom-left-radius: 8px;
+	padding: 10px;
+}
+
+.virtualcurrency2 {
+	background: #000;
+	color: #fff;
+	border-bottom-right-radius: 8px;
+	padding: 10px;
+}
+
+footer {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+
+}
+footer h4 {
+	color: #fff;
+}
+
+.footer {
+	padding: 15px;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+}
+
+footer p {
+	color: #a0a0a0;
+}
+
+footer a {
+	color: #a0a0a0;
+}
+
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Buttons */
+/* Form Button */
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    border-color: #fff;
+}
+
+
+
+.btn-primary {
+	background: linear-gradient(#78BBFC, #0984FA);
+	border: 1px solid #78BBFC;
+}
+
+.btn-primary:hover {
+	background: linear-gradient(#78BBFC, #0984FA);
+	border: 1px solid #0984FA;
+}
+
+.btn-primary:active {
+	background: linear-gradient(#0984FA, #78BBFC);
+	border: 1px solid #0984FA;
+}
+.btn-primary:visited {
+	background: linear-gradient(#0984FA, #78BBFC);
+	border: 1px solid #0984FA;
+}
+
+
+/* Item Action Button */
+.btn-default {
+	background: linear-gradient(#E8F3FE, #D2E8FE);
+	border-color: #E8F3FE;
+}
+
+.btn-default:hover {
+	border-color: #D2E8FE;
+}
+
+.btn-default:active {
+	background: linear-gradient(#D2E8FE, #E8F3FE);
+	border-color: #D2E8FE;
+}
+
+
+.btn-default:visted {
+	background: linear-gradient(#D2E8FE, #E8F3FE);
+	border-color: #D2E8FE;
+}
+.btn-default:focus {
+	background: linear-gradient(#D2E8FE, #E8F3FE);
+	border-color: #D2E8FE;
+}
+
+
+
+
+
+/* Lottery Scratchcard */
+.scratchcard {
+	border: 1px solid #000;
+	width: 302px;
+	height: 152px;
+}
+
+.scratchcard-img-container {
+	width: 150px;
+	height: 150px;
+	background: #9F56D2 url('../images/chest.png') no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.play-container {
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+
+.scratchcard-box {
+	width: 50px;
+	height: 50px;
+	background: #9F56D2;
+	display: inline-block;
+
+	float: left;
+}
+
+.scratchcard-box img {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+	width: 100%;
+}
+
+.box {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.box-top {
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	background: #D2E8FE;
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box-content {
+	background: #E8F3FE;
+	padding: 8px;
+	width: 100%;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+
+/* Shops */
+.shops {
+	padding: 20px;
+	float :left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	
+	max-width: 140px;
+	max-height: 175px;
+	text-align: center;
+}
+
+
+h5 {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 16px;
+}
+
+
+/* View Shop */
+.shops-item {
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 325px;
+}
+
+h6 {
+	font-size: 14px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 16px;
+	margin-left: 85px;
+}
+
+.purchase {
+	margin-left: 85px;
+	float: left;
+}
+
+
+.shops-item-img-container {
+	position: absolute;
+	width: 72px;
+
+	border-radius: 4px;
+	border: 1px solid #ddd;
+}
+
+.shops-item img {
+	display:block;
+    margin:auto;
+	height: 70px;
+	border: none;
+}
+
+img.shops-img {
+	vertical-align: middle;
+	max-width: 128px;
+	max-height: 128px;
+	margin-right: 15px;
+}
+
+
+/* Bank */
+.bank-form {
+	width: 300px;
+	background: tan;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.bank-label {
+	width: 100%;
+	padding: 5px;
+	background: #ddd;
+}
+
+.bank-submit {
+	width: 100%;
+	background: #ddd;
+	padding: 5px;
+	text-align: center;
+}
+
+.bank-input-group {
+	padding: 5px;
+}
+
+
+/* View Profile */
+.profile {
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 275px;
+}
+
+.viewprofile {
+	margin-left: 85px;
+	float: left;
+}
+
+.profile-img-container {
+	position: absolute;
+	width: 72px;
+}
+
+.profile img {
+	display:block;
+    margin:auto;
+	height: 70px;
+	border: none;
+}
+
+/* Billing */
+
+.billing-img-container {
+	position: absolute;
+	width: 72px;
+	border: none;
+}
+
+.billing {
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.billing img {
+	display:block;
+    margin:auto;
+	height: 70px;
+	border: none;
+}
+
+
+/* Put into your Shop */
+.putintoyourshop {
+	margin-top: 45px;
+	float: left;
+	width: 100%;
+}
+
+
+/* Inventory */
+.inventory-item {
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 355px;
+}
+.inventory-item img {
+	display:block;
+    margin:auto;
+	height: 70px;
+	border: none;
+}
+
+/* Manage the Shop */
+.manage-shops-item {
+	padding: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 375px;
+}
+
+.manage-shops-item img {
+	display:block;
+    margin:auto;
+	height: 70px;
+	border: none;
+}
+
+.yourprice {
+	margin-left: 85px;
+	width: 100%;
+	margin-bottom: 4px;
+}
+
+/* My Account */
+.myaccount {
+	padding: 5px;
+	float: left;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.myaccount h6 {
+	margin-left: 100px;
+	font-size: 18px;
+}
+
+.myaccount-info {
+	margin-left: 100px;
+	float: left;
+}
+
+.myaccount-img-container {
+	position: absolute;
+	width: 80px;
+}
+
+.myaccount img {
+	display:block;
+    margin:auto;
+	height: 80px;
+	border: none;
+}
+
+
+/* Navbar */
+.navbar-link:hover,
+.navbar-link:focus {
+  color: #fff;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #fff;
+
+}
+
+
+.navbar {
+	background: #191919;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:active {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:visited {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+	color: #fff;
+}
+
+
+
+.navbar-nav>li>.dropdown-menu {
+	border-radius: 12px;
+	margin-top: -5px;
+}
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: inherit;
+}
+
+
+.navbar-nav>li>.dropdown-menu>li>a:hover {
+	background: #0984FA;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+
+
+.navbar-default .navbar-nav>li>a:active {
+    color: #fff;
+}
+
+
+
+
+h2 {
+	padding-bottom: 3px;
+	border-bottom: #fff 3px solid;
+}
+
+a {
+	color: #0984FA;
+}
+
+a:hover {
+	color: #0984FA;
+}
+
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    color: #fff;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	    color: #fff;
+	}
+
+	.dropdown-header {
+		color: #fff;
+		text-decoration: underline;
+	}
+
+	.navbar-default .navbar-toggle {
+	    border-color: #fff;
+	}
+
+	.footer {
+		border-radius: 0px;
+	}
+
+	footer {
+		margin-bottom: 0px;
+	}
+}
+
